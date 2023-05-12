@@ -80,7 +80,7 @@ export default function Home() {
           <h2>
             ChatGPT <span>-&gt;</span>
           </h2>
-          <p>You can't even tell if it is a real or fake ChatGPT.</p>
+          <p>You can not even tell if it is a real or fake ChatGPT.</p>
         </a>
 
         <a
