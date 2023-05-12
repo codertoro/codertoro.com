@@ -13,9 +13,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ch">
       <head>
-        <title>Next.js</title>
+        <title>CoderToro</title>
       </head>
       <body>
         {children}
