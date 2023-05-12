@@ -9,8 +9,6 @@ export default function Home() {
         I wish you to become your own sun,
         <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         no need to rely on who's light.✨✨✨
-          {/* Get started by editing&nbsp; */}
-          {/* <code className={styles.code}>app/page.js</code> */}
         </p>
         <div>
           <a
