@@ -60,19 +60,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://blog.codertoro.top/"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Craft Blog <span>-&gt;</span>
-          </h2>
-          <p>A beautifully crafted duplicate of a blog.</p>
-        </a>
-
-        <a
-          href="https://myweb.codertoro.top/"
+          href="https://myweb.codertoro.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -84,7 +72,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://gpt.codertoro.top/"
+          href="https://gpt.codertoro.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -92,8 +80,20 @@ export default function Home() {
           <h2>
             ChatGPT <span>-&gt;</span>
           </h2>
+          <p>You can't even tell if it is a real or fake ChatGPT.</p>
+        </a>
+
+        <a
+          href="https://huggingface.co/spaces/codertoro/gpt-academic"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+          ChatGPT 2.6 <span>-&gt;</span>
+          </h2>
           <p>
-            A convenient ChatGPT without the need for a proxy.
+            A convenient academic optimization of ChatGPT.
           </p>
         </a>
       </div>
