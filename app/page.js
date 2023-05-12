@@ -2,13 +2,15 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
+  //const screenWidth = window.innerWidth;
+// console.log('屏幕宽度为：', screenWidth);
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
         I wish you to become your own sun,
         <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        no need to rely on who&apos;s light.✨✨✨
+        no need to rely on who&apos;s light.✨✨
           {/* Get started by editing&nbsp; */}
           {/* <code className={styles.code}>app/page.js</code> */}
         </p>
@@ -31,13 +33,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.center}>
+      <div  className={styles.center}>
         <Image
           className={styles.logo}
           src="/codertoro_none_406*89.svg"
           alt="Codertoro Logo"
-          width={1000}
-          height={100}
+          //width="100%"     //{100}
+          //height={200}
+          layout="fill"
+          // objectFit="contain"
           priority
         />
       </div>

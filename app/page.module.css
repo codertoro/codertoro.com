@@ -78,6 +78,9 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  width: 150%; /* 设置宽度为父元素宽度的80% */
+  height: auto; /* 设置高度为父元素高度的50% */
+  /* margin: auto; 将元素居中 */
 }
 
 .center::before {
