@@ -84,7 +84,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://gpt.codertoro.top/"
+          href="http://gpt.codertoro.top/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
