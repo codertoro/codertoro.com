@@ -60,7 +60,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://myweb.codertoro.com/"
+          href="https://web.codertoro.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
