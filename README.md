@@ -8,3 +8,13 @@
 - [vercel](https://vercel.com/)
 - [next.js](https://nextjs.org/)
 - [github](https://github.com/)
+
+## 操作流程
+- `cd .../this_project`
+- `sudo su`
+- `npm run dev`
+- `git add .`
+- `git commit -m "备注信息"`
+- `git push https://github.com/codertoro/codertoro.com.git main`
+- `username:codertoro`
+- `password:[classical token]`
