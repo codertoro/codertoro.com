@@ -7,6 +7,17 @@
   min-height: 100vh;
 }
 
+.beian {
+  position: fixed;
+  bottom: 1%;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

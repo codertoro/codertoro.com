@@ -72,7 +72,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://gpt.codertoro.com/"
+          href="https://ai.codertoro.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -80,23 +80,30 @@ export default function Home() {
           <h2>
             ChatGPT <span>-&gt;</span>
           </h2>
-          <p>You can not even tell if it is a real or fake ChatGPT.</p>
+          <p>You need a password from the author to use it and the api-key is limited to use.</p>
         </a>
 
         <a
-          href="https://huggingface.co/spaces/codertoro/gpt-academic"
+          href="https://blog.codertoro.top"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-          ChatGPT 2.6 <span>-&gt;</span>
+           Craft Blog<span>-&gt;</span>
           </h2>
           <p>
-            A convenient academic optimization of ChatGPT.
+            An enjoyable blog with nice UI.
           </p>
         </a>
       </div>
+
+      {/* 备案信息 */}
+      <div className={styles.beian}>
+      <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">辽ICP备2023001049号-2</a> 
+      </div>
+
+
     </main>
   )
 }
