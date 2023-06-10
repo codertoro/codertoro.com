@@ -56,7 +56,7 @@ export default function Home() {
           <h2>
             Blog <span>-&gt;</span>
           </h2>
-          <p>A blog that records notes, shares experiences, and holds beauty.</p>
+          <p>A blog that records notes, shares experiences, and holds beauty nywcoder.</p>
         </a>
 
         <a
@@ -80,7 +80,7 @@ export default function Home() {
           <h2>
             ChatGPT <span>-&gt;</span>
           </h2>
-          <p>You need a password from the author to use it and the api-key is limited to use.</p>
+          <p>You need a password from the author to use it and the api-key is limited to use nywcoder.</p>
         </a>
 
         <a
