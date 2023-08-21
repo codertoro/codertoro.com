@@ -16,8 +16,8 @@ export default function Home() {
         </p>
         <div>
           <a
-            href="#"
-            // target="_blank"
+            href="https://codertoro.notion.site/"
+            target="_blank"
             rel="noopener noreferrer"
           >
             By{' '}
@@ -47,6 +47,20 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
+      <a
+          href="https://codertoro.notion.site/"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+           Notion <span>-&gt;</span>
+          </h2>
+          <p>
+            All in One.
+          </p>
+        </a>
+
         <a
           href="https://www.codertoro.top/"
           className={styles.card}
@@ -56,7 +70,7 @@ export default function Home() {
           <h2>
             Blog <span>-&gt;</span>
           </h2>
-          <p>A blog that records notes, shares experiences, and holds beauty nywcoder.</p>
+          <p>The same as the notion-site blog.</p>
         </a>
 
         <a
@@ -68,7 +82,7 @@ export default function Home() {
           <h2>
             Myweb <span>-&gt;</span>
           </h2>
-          <p>A website that gathers various useful web address.</p>
+          <p>All about my web address.</p>
         </a>
 
         <a
@@ -80,22 +94,10 @@ export default function Home() {
           <h2>
             ChatGPT <span>-&gt;</span>
           </h2>
-          <p>You need a password from the author to use it and the api-key is limited to use nywcoder.</p>
+          <p>Use GPT-3.5 for free.</p>
         </a>
 
-        <a
-          href="https://blog.codertoro.top"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-           Craft Blog<span>-&gt;</span>
-          </h2>
-          <p>
-            An enjoyable blog with nice UI.
-          </p>
-        </a>
+        
       </div>
 
       {/* 备案信息 */}
