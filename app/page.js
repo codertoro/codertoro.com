@@ -48,16 +48,16 @@ export default function Home() {
 
       <div className={styles.grid}>
       <a
-          href="https://codertoro.notion.site/"
+          href="https://ob.codertoro.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-           Notion <span>-&gt;</span>
+           Obsidian <span>-&gt;</span>
           </h2>
           <p>
-            All in One.
+            ob.codertoro.com
           </p>
         </a>
 
@@ -70,7 +70,7 @@ export default function Home() {
           <h2>
             Blog <span>-&gt;</span>
           </h2>
-          <p>The same as the notion-site blog.</p>
+          <p>A hexo blog.</p>
         </a>
 
         <a
@@ -86,15 +86,15 @@ export default function Home() {
         </a>
 
         <a
-          href="https://ai.codertoro.com/"
+          href="https://codertoro.notion.site/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            ChatGPT <span>-&gt;</span>
+          Notion <span>-&gt;</span>
           </h2>
-          <p>Use GPT-3.5 for free.</p>
+          <p>All in One.</p>
         </a>
 
         
