@@ -86,7 +86,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://codertoro.notion.site/"
+          href="https://txt.codertoro.com/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
