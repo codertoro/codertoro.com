@@ -92,9 +92,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-          Notion <span>-&gt;</span>
+          文本分享 <span>-&gt;</span>
           </h2>
-          <p>All in One.</p>
+          <p>txt.codertoro.com</p>
         </a>
 
         
